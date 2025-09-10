@@ -52,10 +52,10 @@ Digite o CEP (somente números) quando solicitado:
     Digite o CEP (somente números) ou 'sair': 01001000
 
     Resultado da consulta:
-    CEP:         01001-000
-    Logradouro:  Praça da Sé
-    Bairro:      Sé
-    Cidade:      São Paulo
+    CEP:         11075-110
+    Logradouro:  Avenida Francisco Manoel
+    Bairro:      Jabaquara
+    Cidade:      Santos
     Estado:      SP
 
 ------------------------------------------------------------------------
