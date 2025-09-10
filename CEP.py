@@ -22,7 +22,7 @@ def consultar_cep(cep: str):
 
 
 def mostrar_resultado(dados):
-    print("\n📍 Resultado da consulta:")
+    print("\nResultado da consulta:")
     print(f"CEP:         {dados['cep']}")
     print(f"Logradouro:  {dados['logradouro'] or '---'}")
     print(f"Bairro:      {dados['bairro'] or '---'}")
@@ -34,12 +34,13 @@ if __name__ == "__main__":
     while True:
         cep = input("\nDigite o CEP (somente números) ou 'sair': ").strip()
         if cep.lower() == "sair":
-            print("Encerrando o programa. 👋")
+            print("Encerrando o programa.")
             break
 
         resultado = consultar_cep(cep)
 
         if "erro" in resultado:
-            print("❌", resultado["erro"])
+            print(resultado["erro"])
         else:
             mostrar_resultado(resultado)
+
